@@ -1,4 +1,4 @@
 document.querySelector("button").onclick = () => {
-  window.open("https://wa.me/213XXXXXXXXX");
+  window.open("https://wa.me/213556372063");
 };
 
