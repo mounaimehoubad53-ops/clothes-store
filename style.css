@@ -46,4 +46,10 @@ button {
   border: none;
   cursor: pointer;
 }
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 6px;
+}
 
