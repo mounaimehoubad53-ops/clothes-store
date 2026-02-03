@@ -22,12 +22,31 @@
 </section>
 
 <section class="products">
-  <div class="card">
-    <img src="https://via.placeholder.com/250">
-    <h3>T-Shirt أسود</h3>
-    <p>20$</p>
-    <button>اطلب الآن</button>
-  </div>
+<div class="card">
+  <img src="https://via.placeholder.com/250">
+  <h3>T-Shirt مطبوع</h3>
+  <p>20$</p>
+
+  <!-- اختيار اللون -->
+  <label>اللون:</label>
+  <select id="color">
+    <option value="أسود">أسود</option>
+    <option value="أبيض">أبيض</option>
+    <option value="أحمر">أحمر</option>
+  </select>
+
+  <!-- اختيار المقاس -->
+  <label>المقاس:</label>
+  <select id="size">
+    <option value="S">S</option>
+    <option value="M">M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+  </select>
+
+  <button onclick="order()">اطلب الآن</button>
+</div>
+
 </section>
 
 <script src="script.js"></script>
